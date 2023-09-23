@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rock Paper Scissors Game" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rpsDone.css" />
+  <link rel="icon" href="image/rock-emoji.png" />
+</head>
+
+<body>
+  <div class="container">
+    <p class="heading">Rock Paper Scissors</p>
+
+    <div class="move-container">
+      <button class="move-button js-rock-button">
+        <img src="image/rock-emoji.png" alt="rock emoki" class="move-icon" />
+      </button>
+      <button class="move-button js-paper-button">
+        <img src="image/paper-emoji.png" alt="paper emoji" class="move-icon" />
+      </button>
+      <button class="move-button js-scissors-button">
+        <img src="image/scissors-emoji.png" alt="scissors emoji" class="move-icon" />
+      </button>
+    </div>
+    <p class="js-result result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score score"></p>
+
+    <button class="js-reset-button reset-button">
+      Reset Score
+    </button>
+    <div class="js-div reset-text">
+    </div>
+    <button class="auto-play-button js-autoplay">
+      Auto Play
+    </button>
+  </div>
+
+  <script src="rpsDone.js"></script>
+</body>
+
+</html>
